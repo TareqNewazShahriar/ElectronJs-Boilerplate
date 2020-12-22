@@ -1,0 +1,23 @@
+{
+  "name": "Tempate-Project-Electron-Context-Isolation",
+  "version": "1.0.0",
+  "description": "A template to start a Electron project with contextIsolation",
+  "main": "main.js",
+  "scripts": {
+   "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TareqNewazShahriar/Tempate-Project-Electron-Context-Isolation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TareqNewazShahriar/Tempate-Project-Electron-Context-Isolation/issues"
+  },
+  "homepage": "https://github.com/TareqNewazShahriar/Tempate-Project-Electron-Context-Isolation#readme",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
