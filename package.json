@@ -1,5 +1,5 @@
 {
-  "name": "Tempate-Project-Electron-Context-Isolation",
+  "name": "electronjs-boilerplate",
   "version": "1.0.0",
   "description": "A template to start a Electron project with contextIsolation",
   "main": "main.js",
@@ -37,7 +37,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "Tempate_Project_Electron_Context_Isolation"
+            "name": "electronjs_boilerplate"
           }
         },
         {
