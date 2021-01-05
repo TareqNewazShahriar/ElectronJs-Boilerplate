@@ -6,7 +6,7 @@ app.whenReady().then(() => {
    let promise = createWindow();
 
    promise.then(() =>
-      mainWindow.webContents.send('to-window', 'How are you Window?'));
+      mainWindow.webContents.send('receive-from-main', 'How are you Window?'));
 });
 
 app.on('window-all-closed', () => {
@@ -21,7 +21,7 @@ app.on('activate', () => {
    }
 });
 
-ipcMain.on('to-main', (event, data) => {
+ipcMain.on('send-to-main', (event, data) => {
    console.log('Data from index window', data);
 });
 
