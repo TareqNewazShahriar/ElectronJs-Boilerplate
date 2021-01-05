@@ -31,10 +31,10 @@ function createWindow() {
       show: true,
       webPreferences: {
          contextIsolation: true,
-         preload: `${__dirname}/src/preload.js`
+         preload: `${__dirname}/app/preload.js`
       }
    });
 
-   let promise = mainWindow.loadURL(`file://${__dirname}/src/index.html`);
+   let promise = mainWindow.loadURL(`file://${__dirname}/app/index.html`);
    return promise;
 }
