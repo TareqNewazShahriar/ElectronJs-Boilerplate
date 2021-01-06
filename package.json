@@ -1,24 +1,14 @@
 {
-  "name": "electronjs-boilerplate",
+  "name": "electron-contextisolation-template",
   "version": "1.0.0",
-  "description": "A template to start a Electron project with contextIsolation",
+  "description": "A template to start a Electron project with contextIsolation.",
+  "author": "Waiting for some authors",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TareqNewazShahriar/Tempate-Project-Electron-Context-Isolation.git"
-  },
-  "keywords": [],
-  "author": "waiting for some authors",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TareqNewazShahriar/Tempate-Project-Electron-Context-Isolation/issues"
-  },
-  "homepage": "https://github.com/TareqNewazShahriar/Tempate-Project-Electron-Context-Isolation#readme",
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.54",
     "@electron-forge/maker-deb": "^6.0.0-beta.54",
@@ -37,7 +27,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "electronjs_boilerplate"
+            "name": "electron_contextisolation_template"
           }
         },
         {

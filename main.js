@@ -22,7 +22,7 @@ app.on('activate', () => {
 });
 
 ipcMain.on('send-to-main', (event, data) => {
-   console.log('Data from index window', data);
+   console.log('Data from index window:', data);
 });
 
 function createWindow() {
